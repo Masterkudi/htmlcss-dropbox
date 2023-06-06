@@ -63,12 +63,15 @@ body {
     font-size: 20px;
     color: #ffffff;
     background-color: #0561FC;
+    border: none;
+    text-decoration: none;
 }
 
 /* Titoli header */
 
 .hero-section {
-    padding: 20px;
+    width: 100%;
+    padding: 50px;
     background-color: #B4D0E7;
     background-size: cover;
     display: flex;
@@ -77,26 +80,57 @@ body {
 
 .title {
     align-self: center;
-    width: 50%;
-    font-size: 3.5em;
-    font-weight: 9400;
+    width: 60%;
+    font-size: 3em;
     padding: 1em;
     display: flex;
 }
 
-.container {
+.sub-hero-section {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 30em;
+}
+
+.text-section {
     display: flex;
     flex-direction: column;
-    width: 20%;
+    line-height: 1.5em;
+    width: 60%;
+}
+
+.text-section p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.text-section i {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 3em;
 }
 
 .hs-button {
-    padding: 1em;
-    font-size: 1.5em;
+    padding: 10px 10px;
+    font-size: 20px;
     color: #ffffff;
     background-color: #0561FC;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: none;
+    text-decoration: none;
 }
 
-.container img {
-    display: inline-block;
+
+.img-section img {
+    margin-top: 1.5em;
+    width: 110%;
+}
+
+main h1 {
+    height: 10000px;
 }
