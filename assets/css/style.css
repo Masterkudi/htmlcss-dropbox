@@ -539,6 +539,11 @@ button.button {
     height: 50%;
 }
 
+.file-svg {
+    fill: white;
+    margin: auto;
+}
+
 /* Sixth Section */
 
 .sixth-container {
@@ -574,4 +579,79 @@ button.button {
     color: #080808;
     background-color: #ffffff;
     border: none;
+}
+
+/* Seventh Section */
+
+.seventh-container {
+    width: 100%;
+    height: 50rem;
+    margin: auto;
+    display: flex;
+}
+
+.section7 {
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    justify-content: start;
+    height: 25rem;
+    width: 50%;
+}
+
+.s7-title h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.s7-questions {
+    display: flex;
+    flex-direction: column;
+}
+
+.section7 p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    line-height: 7rem;
+}
+
+.fa-solid.fa-chevron-down {
+    align-self: center;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 50rem;
+    margin: auto;
+    display: flex;
+    color: white;
+    background-color: #000000;
+}
+
+.section8 {
+    display: flex;
+    margin: auto;
+    height: 25rem;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.section8 h3 {
+    font-size: 2rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.section8 p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: lighter;
+}
+
+.section8 div {
+    margin-bottom: 1rem;
+    hyphenate-character: ;
 }
