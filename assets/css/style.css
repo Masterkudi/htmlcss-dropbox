@@ -139,7 +139,6 @@ main {
     height: 70%;
     margin: auto;
     margin-top: 10em;
-
 }
 
 .first-container h2 {
@@ -174,7 +173,6 @@ main {
     gap: 2rem;
 }
 
-
 .user-window {
     padding: .5rem;
     padding-bottom: 1em;
@@ -183,7 +181,6 @@ main {
     border: 1px solid black;
     text-align: center;
     line-height: 2.5em;
-
 }
 
 .user-window h3 {
@@ -208,7 +205,6 @@ main {
 .user-window ul {
     list-style: none;
     text-align: left;
-
 }
 
 .uw-icon {
@@ -219,6 +215,7 @@ main {
     font-size: .9em;
     margin-left: 2em;
     margin-right: 2em;
+    text-indent: -10px;
 }
 
 .uw-options p {
@@ -227,6 +224,7 @@ main {
 
 .uw-options h4 {
     margin: 0;
+    text-indent: 10px;
 }
 
 .uw-bottom {
@@ -268,7 +266,6 @@ main {
 .hs-button-bottom {
     display: flex;
 }
-
 
 button.button {
     margin-top: .5em;
@@ -456,6 +453,18 @@ button.button {
 
 .centre {
     background-color: #F5F5F5;
+    padding: 5rem;
+}
+
+.box5 img {
+    width: 20rem;
+}
+
+.centre .line {
+    width: 20%;
+    height: 3rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 5rem;
 }
 
 .box6 {
@@ -511,7 +520,6 @@ button.button {
     margin: auto;
     height: 10rem;
     width: 50%;
-
 }
 
 .s6-title h2 {
