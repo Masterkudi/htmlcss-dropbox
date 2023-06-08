@@ -139,7 +139,6 @@ main {
     height: 70%;
     margin: auto;
     margin-top: 10em;
-    border: 1px dashed red;
 
 }
 
@@ -290,7 +289,6 @@ button.button {
     margin: auto;
     margin-top: 10em;
     margin-bottom: 10em;
-    border: 1px dashed red;
 }
 
 .section2 {
@@ -299,7 +297,6 @@ button.button {
     justify-content: center;
     width: 50%;
     height: 40em;
-    border: 1px dashed red;
 }
 
 .sc-text-section {
@@ -331,7 +328,6 @@ button.button {
 
 .image-section {
     display: flex;
-
     width: 60%;
 }
 
@@ -343,7 +339,6 @@ button.button {
     margin: auto;
     margin-top: 10em;
     margin-bottom: 2rem;
-    border: 1px dashed red;
 }
 
 .section3 {
@@ -352,7 +347,6 @@ button.button {
     justify-content: start;
     flex-wrap: wrap;
     width: 50%;
-    border: 1px dashed red;
 }
 
 .s3-title {
@@ -391,7 +385,6 @@ button.button {
     height: 30rem;
     margin: auto;
     display: flex;
-    border: 1px dashed red;
 }
 
 .section4 {
@@ -401,7 +394,6 @@ button.button {
     justify-content: start;
     height: 14rem;
     width: 50%;
-    border: 1px dashed red;
 }
 
 .s4-title h2 {
@@ -413,13 +405,11 @@ button.button {
 
 .fifth-container {
     display: flex;
-    border: 1px dashed red;
 }
 
 .left-side {
     width: calc(100% / 3);
     aspect-ratio: 1/1;
-    border: 1px dashed red;
     display: flex;
     flex-wrap: wrap;
 }
@@ -427,27 +417,23 @@ button.button {
 .centre {
     width: calc(100% / 3);
     aspect-ratio: 1/1;
-    border: 1px dashed red;
 }
 
 .right-side {
     width: calc(100% / 3);
     aspect-ratio: 1/1;
-    border: 1px dashed red;
     display: flex;
     flex-wrap: wrap;
 }
 
 .left-side .box1, .box2, .box3, .box4 {
     display: flex;
-    border: 1px solid blue;
     width: 50%;
     min-height: 20px;
 }
 
 .right-side .box6, .box7, .box8, .box9 {
     display: flex;
-    border: 1px solid blue;
     width: 50%;
     min-height: 20px;
 }
@@ -457,13 +443,12 @@ button.button {
     background-color: #A2D39B;
 }
 
-.box1 img {
+.box1 a, img {
     margin: auto;
-    color: white;
     align-self: center;
     justify-content: center;
     width: auto;
-    height: 13%;
+    height: 30%;
 }
 
 .box2 {
@@ -471,13 +456,12 @@ button.button {
     background-color: #610A2B;
 }
 
-.box2 img {
+.box2 a, img {
     margin: auto;
-    color: white;
     align-self: center;
     justify-content: center;
     width: auto;
-    height: 13%;
+    height: 70%;
 }
 
 .box3 {
@@ -485,13 +469,12 @@ button.button {
     background-color: #0093CE;
 }
 
-.box3 img {
+.box3 a, img {
     margin: auto;
-    color: white;
     align-self: center;
     justify-content: center;
     width: auto;
-    height: 13%;
+    height: 20%;
 }
 
 .box4 {
@@ -499,62 +482,61 @@ button.button {
     background-color: #FF2A1D;
 }
 
-.box4 img {
+.box4 a, img {
     margin: auto;
-    color: white;
     align-self: center;
     justify-content: center;
     width: auto;
-    height: 13%;
+    height: 45%;
+}
+
+.centre {
+    background-color: #F5F5F5;
 }
 
 .box6 {
     height: 50%;
     background-color: #D5211F;
 }
-.box6 img {
+.box6 a, img {
     margin: auto;
-    color: white;
     align-self: center;
     justify-content: center;
     width: auto;
-    height: 13%;
+    height: 40%;
 }
 .box7 {
     height: 50%;
     background-color: #B4D0E7;
 }
-.box7 img {
+.box7 a, img {
     margin: auto;
-    color: white;
     align-self: center;
     justify-content: center;
     width: auto;
-    height: 5%;
+    height: 10%;
 }
 .box8 {
     height: 50%;
     background-color: #0E2481;
 }
-.box8 img {
+.box8 a, img {
     margin: auto;
-    color: white;
     align-self: center;
     justify-content: center;
     width: auto;
-    height: 13%;
+    height: 50%;
 }
 .box9 {
     height: 50%;
     background-color: #FFD830;
 }
-.box9 img {
+.box9 a, img {
     margin: auto;
-    color: white;
     align-self: center;
     justify-content: center;
     width: auto;
-    height: 13%;
+    height: 50%;
 }
 
 /* Sixth Section */
