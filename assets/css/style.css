@@ -509,6 +509,23 @@ button.button {
     height: 13%;
 }
 
+.box6 {
+    display: flex;
+    background-color: #D5211F;
+}
+.box7 {
+    display: flex;
+    background-color: #B4D0E7;
+}
+.box8 {
+    display: flex;
+    background-color: #0E2481;
+}
+.box9 {
+    display: flex;
+    background-color: #FFD830;
+}
+
 /* Sixth Section */
 
 .sixth-container {
