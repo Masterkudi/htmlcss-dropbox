@@ -439,55 +439,19 @@ button.button {
 }
 
 .box1 {
-    height: 50%;
     background-color: #A2D39B;
 }
 
-.box1 a, img {
-    margin: auto;
-    align-self: center;
-    justify-content: center;
-    width: auto;
-    height: 30%;
-}
-
 .box2 {
-    height: 50%;
     background-color: #610A2B;
 }
 
-.box2 a, img {
-    margin: auto;
-    align-self: center;
-    justify-content: center;
-    width: auto;
-    height: 70%;
-}
-
 .box3 {
-    height: 50%;
     background-color: #0093CE;
 }
 
-.box3 a, img {
-    margin: auto;
-    align-self: center;
-    justify-content: center;
-    width: auto;
-    height: 20%;
-}
-
 .box4 {
-    height: 50%;
     background-color: #FF2A1D;
-}
-
-.box4 a, img {
-    margin: auto;
-    align-self: center;
-    justify-content: center;
-    width: auto;
-    height: 45%;
 }
 
 .centre {
@@ -495,53 +459,37 @@ button.button {
 }
 
 .box6 {
-    height: 50%;
     background-color: #D5211F;
 }
-.box6 a, img {
-    margin: auto;
-    align-self: center;
-    justify-content: center;
-    width: auto;
-    height: 40%;
-}
+
 .box7 {
-    height: 50%;
     background-color: #B4D0E7;
 }
-.box7 a, img {
-    margin: auto;
-    align-self: center;
-    justify-content: center;
-    width: auto;
-    height: 10%;
-}
+
 .box8 {
-    height: 50%;
     background-color: #0E2481;
 }
-.box8 a, img {
-    margin: auto;
-    align-self: center;
-    justify-content: center;
-    width: auto;
-    height: 50%;
-}
+
 .box9 {
-    height: 50%;
     background-color: #FFD830;
 }
-.box9 a, img {
+
+.sponsor-box a img {
     margin: auto;
     align-self: center;
     justify-content: center;
-    width: auto;
+    width: 15rem;
     height: 50%;
 }
 
 .file-svg {
-    fill: white;
-    margin: auto;
+    filter: invert(1)
+}
+
+.sponsor-box {
+    height: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Sixth Section */
@@ -653,5 +601,4 @@ button.button {
 
 .section8 div {
     margin-bottom: 1rem;
-    hyphenate-character: ;
 }
