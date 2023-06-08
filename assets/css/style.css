@@ -566,6 +566,7 @@ button.button {
 }
 
 .section7 p {
+    border-bottom: 1px solid black;
     display: flex;
     justify-content: space-between;
     font-size: 1.2rem;
