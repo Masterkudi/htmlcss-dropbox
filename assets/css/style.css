@@ -25,7 +25,7 @@ body {
 .l-side {
     display: flex;
     align-items: center;
-    
+
 }
 
 .r-side {
@@ -143,23 +143,31 @@ main {
     margin: auto;
     margin-top: 10em;
     border: 1px dashed red;
-   
+
 }
+
 .first-container h2 {
     font-size: 3rem;
     justify-content: center;
     margin-bottom: 1em;
 }
 
-.input, .input2 {
-    display: inline-block;
-    padding: 1em;  
+.radio-container [type="radio"] {
+    display: none;
 }
 
-input[type="radio"] {
+.radio-container label .fake-radio {
+    content: "";
+    border: 1px solid #0561FC;
     width: 20px;
     height: 20px;
+    display: inline-block;
     border-radius: 50%;
+}
+
+.radio-container label input:checked~.fake-radio {
+    color: #0561FC;
+    border-width: 5px;
 }
 
 .area {
@@ -177,10 +185,10 @@ input[type="radio"] {
     flex-direction: row;
     width: calc(33.3% - (4rem / 3));
     border: 1px solid black;
-    text-align: center; 
+    text-align: center;
     line-height: 2.5em;
-     
-} 
+
+}
 
 .user-window h3 {
     font-size: 1.6em;
@@ -188,11 +196,13 @@ input[type="radio"] {
     margin-left: 1em;
     text-align: left;
 }
+
 .user-window h4 {
     font-size: 1em;
     margin-left: 2em;
     text-align: left;
 }
+
 .user-window p {
     font-size: 1em;
     margin-left: 2em;
@@ -202,7 +212,7 @@ input[type="radio"] {
 .user-window ul {
     list-style: none;
     text-align: left;
-    
+
 }
 
 .uw-icon {
@@ -229,8 +239,8 @@ input[type="radio"] {
     width: 100%;
     height: 100%;
     border: 1px solid black;
-    text-align: center; 
-    line-height: 2.5em; 
+    text-align: center;
+    line-height: 2.5em;
 }
 
 .uw-bottom-main {
@@ -245,12 +255,14 @@ input[type="radio"] {
     margin-top: .3em;
     text-align: left;
 }
+
 .uw-bottom h4 {
     font-size: 1em;
     text-align: left;
     margin-top: .5em;
     margin-bottom: .5em;
 }
+
 .uw-bottom p {
     font-size: 1em;
     text-align: left;
@@ -294,7 +306,7 @@ button.button {
 }
 
 .sc-text-section {
-    padding: 4em 2em 1em 5em ;
+    padding: 4em 2em 1em 5em;
     width: 40%;
 }
 
@@ -333,7 +345,7 @@ button.button {
     height: 100%;
     margin: auto;
     margin-top: 10em;
-    margin-bottom: 10em;
+    margin-bottom: 2rem;
     border: 1px dashed red;
 }
 
@@ -360,7 +372,7 @@ button.button {
     flex-direction: column;
 }
 
-.col-img img{
+.col-img img {
     width: 309px;
 }
 
@@ -375,26 +387,161 @@ button.button {
     line-height: 1.5em;
 }
 
-/* Fourth Section*/
+/* Fourth Section */
 
 .fourth-container {
     width: 100%;
-    height: 100%;
+    height: 30rem;
     margin: auto;
-    margin-top: 10em;
-    margin-bottom: 10em;
+    display: flex;
     border: 1px dashed red;
 }
 
 .section4 {
+    align-items: center;
+    align-content: center;
     margin: auto;
     justify-content: start;
-    height: 10em;
+    height: 14rem;
     width: 50%;
     border: 1px dashed red;
 }
 
 .s4-title h2 {
     font-size: 3rem;
-    margin-bottom: 10rem;
+    margin-bottom: 6rem;
+}
+
+/* Fifth Section */
+
+.fifth-container {
+    display: flex;
+    border: 1px dashed red;
+}
+
+.left-side {
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
+    border: 1px dashed red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centre {
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
+    border: 1px dashed red;
+}
+
+.right-side {
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
+    border: 1px dashed red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-side .box1, .box2, .box3, .box4 {
+    border: 1px solid blue;
+    width: 50%;
+    min-height: 20px;
+}
+
+.right-side .box6, .box7, .box8, .box9 {
+    border: 1px solid blue;
+    width: 50%;
+    min-height: 20px;
+}
+
+.box1 {
+    display: flex;
+    background-color: #A2D39B;
+}
+
+.box1 img {
+    margin: auto;
+    color: white;
+    align-self: center;
+    justify-content: center;
+    width: auto;
+    height: 13%;
+}
+
+.box2 {
+    display: flex;
+    background-color: #610A2B;
+}
+
+.box2 img {
+    margin: auto;
+    color: white;
+    align-self: center;
+    justify-content: center;
+    width: auto;
+    height: 13%;
+}
+
+.box3 {
+    display: flex;
+    background-color: #0093CE;
+}
+
+.box3 img {
+    margin: auto;
+    color: white;
+    align-self: center;
+    justify-content: center;
+    width: auto;
+    height: 13%;
+}
+
+.box4 {
+    display: flex;
+    background-color: #FF2A1D;
+}
+
+.box4 img {
+    margin: auto;
+    color: white;
+    align-self: center;
+    justify-content: center;
+    width: auto;
+    height: 13%;
+}
+
+/* Sixth Section */
+
+.sixth-container {
+    width: 100%;
+    height: 30rem;
+    margin: auto;
+    display: flex;
+    background-color: #B4D0E7;
+    border: 1px dashed red;
+}
+
+.section6 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 10rem;
+    width: 50%;
+
+}
+
+.s6-title h2 {
+    color: #610A2B;
+    display: flex;
+    font-size: 3rem;
+}
+
+.s6-button {
+    display: flex;
+    padding: 15px 15px;
+    font-size: 20px;
+    color: #080808;
+    background-color: #ffffff;
+    border: none;
 }
