@@ -4,13 +4,10 @@
     box-sizing: border-box;
 }
 
-html {
-    background-color: #0F0F0F;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-body {
-    width: 95%;
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
     max-height: 100%;
     margin: auto;
     background-color: #ffffff;
@@ -442,19 +439,21 @@ button.button {
 }
 
 .left-side .box1, .box2, .box3, .box4 {
+    display: flex;
     border: 1px solid blue;
     width: 50%;
     min-height: 20px;
 }
 
 .right-side .box6, .box7, .box8, .box9 {
+    display: flex;
     border: 1px solid blue;
     width: 50%;
     min-height: 20px;
 }
 
 .box1 {
-    display: flex;
+    height: 50%;
     background-color: #A2D39B;
 }
 
@@ -468,7 +467,7 @@ button.button {
 }
 
 .box2 {
-    display: flex;
+    height: 50%;
     background-color: #610A2B;
 }
 
@@ -482,7 +481,7 @@ button.button {
 }
 
 .box3 {
-    display: flex;
+    height: 50%;
     background-color: #0093CE;
 }
 
@@ -496,7 +495,7 @@ button.button {
 }
 
 .box4 {
-    display: flex;
+    height: 50%;
     background-color: #FF2A1D;
 }
 
@@ -510,20 +509,52 @@ button.button {
 }
 
 .box6 {
-    display: flex;
+    height: 50%;
     background-color: #D5211F;
 }
+.box6 img {
+    margin: auto;
+    color: white;
+    align-self: center;
+    justify-content: center;
+    width: auto;
+    height: 13%;
+}
 .box7 {
-    display: flex;
+    height: 50%;
     background-color: #B4D0E7;
 }
+.box7 img {
+    margin: auto;
+    color: white;
+    align-self: center;
+    justify-content: center;
+    width: auto;
+    height: 5%;
+}
 .box8 {
-    display: flex;
+    height: 50%;
     background-color: #0E2481;
 }
+.box8 img {
+    margin: auto;
+    color: white;
+    align-self: center;
+    justify-content: center;
+    width: auto;
+    height: 13%;
+}
 .box9 {
-    display: flex;
+    height: 50%;
     background-color: #FFD830;
+}
+.box9 img {
+    margin: auto;
+    color: white;
+    align-self: center;
+    justify-content: center;
+    width: auto;
+    height: 13%;
 }
 
 /* Sixth Section */
