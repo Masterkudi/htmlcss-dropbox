@@ -66,8 +66,7 @@ body, html {
 /* Titoli header */
 
 #hero-section {
-    width: 100vw;
-    height: 540px;
+    width: 100%;
     padding: 1rem;
     background-color: #B4D0E7;
     background-size: cover;
@@ -75,16 +74,14 @@ body, html {
     flex-direction: column;
 }
 
-.container-xl {
-    height: 100%;
-}
 
 .title {
+    display: flex;
     margin: auto;
     width: 60%;
     font-size: 2.5rem;
     padding: .5rem;
-    display: flex;
+    
 }
 
 .sub-hero-section {
@@ -93,7 +90,17 @@ body, html {
     justify-content: center;
     width: 70%;
     height: 100%;
-    height: 30rem;
+}
+
+.img-section {
+    width: 70%;
+    display: flex;
+    margin-bottom: -6rem;
+}
+
+.img-section img {
+    margin-top: 1rem;
+    width: 100%;
 }
 
 .text-section {
@@ -124,15 +131,6 @@ body, html {
     margin-bottom: 1rem;
     border: none;
     text-decoration: none;
-}
-
-.img-section {
-    width: 70%;
-}
-
-.img-section img {
-    margin-top: 1em;
-    width: 100%;
 }
 
 /* Main Section */
@@ -526,7 +524,6 @@ button.button {
     margin: auto;
     display: flex;
     background-color: #B4D0E7;
-    border: 1px dashed red;
 }
 
 .section6 {
@@ -536,7 +533,7 @@ button.button {
     justify-content: space-between;
     margin: auto;
     height: 10rem;
-    width: 50%;
+    width: 60%;
 }
 
 .s6-title h2 {
@@ -547,8 +544,8 @@ button.button {
 
 .s6-button {
     display: flex;
-    padding: 15px 15px;
-    font-size: 20px;
+    padding: 1rem;
+    font-size: 1rem;
     color: #080808;
     background-color: #ffffff;
     border: none;
