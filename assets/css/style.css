@@ -291,7 +291,7 @@ button.button {
 
 .second-container {
     width: 100%;
-    height: 70%;
+    height: auto;
     margin: auto;
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -302,7 +302,6 @@ button.button {
     display: flex;
     justify-content: center;
     width: 60%;
-    height: 40em;
 }
 
 .image-section {
@@ -319,8 +318,8 @@ button.button {
 }
 
 .sc-text-section h2 {
-    font-size: 3rem;
-    line-height: 1.3em;
+    font-size: 2rem;
+    line-height: .3m;
 }
 
 .sc-text-section p {
